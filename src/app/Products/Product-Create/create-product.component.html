@@ -1,0 +1,37 @@
+<div>
+<form [formGroup]="productFormm" (ngSubmit)="save()" >
+  <label>
+
+    Product Name:
+  <input type="text" formControlName="clothingName">
+  </label>
+
+  clothingtype:
+  <label>
+    <input type="text" formControlName="clothingtype">
+  </label>
+
+  size:
+  <label>
+    <input type="text" formControlName="size">
+  </label>
+
+  price:
+  <label>
+    <input type="text" formControlName="price">
+  </label>
+
+  clothingInformation:
+  <label>
+    <input type="text" formControlName="clothingInformation">
+  </label>
+
+  imgLink:
+  <label>
+    <input type="text" formControlName="imgLink">
+  </label>
+  <button type="submit"> Save</button>
+</form>
+
+
+</div>
